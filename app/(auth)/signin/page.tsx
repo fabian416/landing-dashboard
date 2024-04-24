@@ -13,7 +13,7 @@ export default function SignIn() {
 
           {/* Page header */}
           <div className="max-w-3xl mx-auto text-center pb-12 md:pb-20">
-            <h1 className="h1">Welcome back. We exist to make entrepreneurism easier.</h1>
+            <h1 className="h1">Bienvenido otra vez. Gracias por permitirnos ayudarte.</h1>
           </div>
 
           {/* Form */}
@@ -22,16 +22,16 @@ export default function SignIn() {
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="email">Email</label>
-                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Enter your email address" required />
+                  <input id="email" type="email" className="form-input w-full text-gray-800" placeholder="Ingresa tu email" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
                 <div className="w-full px-3">
                   <div className="flex justify-between">
-                    <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Password</label>
-                    <Link href="/reset-password" className="text-sm font-medium text-blue-600 hover:underline">Having trouble signing in?</Link>
+                    <label className="block text-gray-800 text-sm font-medium mb-1" htmlFor="password">Contraseña</label>
+                    <Link href="/reset-password" className="text-sm font-medium text-blue-600 hover:underline">Tienes problemas para iniciar sesion?</Link>
                   </div>
-                  <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Enter your password" required />
+                  <input id="password" type="password" className="form-input w-full text-gray-800" placeholder="Ingresa tu contraseña" required />
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mb-4">
@@ -39,14 +39,14 @@ export default function SignIn() {
                   <div className="flex justify-between">
                     <label className="flex items-center">
                       <input type="checkbox" className="form-checkbox" />
-                      <span className="text-gray-600 ml-2">Keep me signed in</span>
+                      <span className="text-gray-600 ml-2">Mantener la sesion</span>
                     </label>
                   </div>
                 </div>
               </div>
               <div className="flex flex-wrap -mx-3 mt-6">
                 <div className="w-full px-3">
-                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Sign in</button>
+                  <button className="btn text-white bg-blue-600 hover:bg-blue-700 w-full">Iniciar sesión</button>
                 </div>
               </div>
             </form>
@@ -72,13 +72,13 @@ export default function SignIn() {
                     <svg className="w-4 h-4 fill-current text-white opacity-75 shrink-0 mx-4" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
                       <path d="M7.9 7v2.4H12c-.2 1-1.2 3-4 3-2.4 0-4.3-2-4.3-4.4 0-2.4 2-4.4 4.3-4.4 1.4 0 2.3.6 2.8 1.1l1.9-1.8C11.5 1.7 9.9 1 8 1 4.1 1 1 4.1 1 8s3.1 7 7 7c4 0 6.7-2.8 6.7-6.8 0-.5 0-.8-.1-1.2H7.9z" />
                     </svg>
-                    <span className="flex-auto pl-16 pr-8 -ml-16">Continue with Google</span>
+                    <span className="flex-auto pl-16 pr-8 -ml-16">Continuar con Google</span>
                   </button>
                 </div>
               </div>
             </form>
             <div className="text-gray-600 text-center mt-6">
-              Don't you have an account? <Link href="/signup" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Sign up</Link>
+              No tienes cuenta? <Link href="/signup" className="text-blue-600 hover:underline transition duration-150 ease-in-out">Registrarse</Link>
             </div>
           </div>
 
